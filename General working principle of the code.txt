@@ -1,0 +1,33 @@
+====================================================
+                   GENERAL WORKING PRINCIPLE OF THE CODE
+====================================================
+
+1. Main Program Flow (Main Class):
+----------------------------------------------------
+- The `main` method is the entry point of the program.
+- A `Scanner` object is created, and an `okulYonetim` object is instantiated.
+- A loop starts, offering various options to the user.
+- Based on the user's selection, the relevant management methods are called, and actions are performed.
+- When the user decides to close the program, the loop is terminated, and the program ends.
+
+2. School Management Class (okulYonetim Class):
+----------------------------------------------------
+- A constant `maxokul`, an array of `Okul` objects (`okullar`), and a counter `okulSayisi` are used.
+- Various functions are provided, including adding a school, displaying school information, showing all schools, showing schools in the same city, updating school records, deleting school records, writing to a file, and reading from a file.
+
+3. School Class (Okul Class):
+----------------------------------------------------
+- The `Okul` class holds the basic properties of school objects (name, city, country, phone number, student count, founding year).
+- The constructor method is used to set the school’s information.
+- A method is provided to display the school’s information.
+
+4. User Input and Output:
+----------------------------------------------------
+- The user makes selections via the console and enters required information.
+- Based on the user’s choices and inputs, various outputs are generated, and actions are performed.
+- In case of errors, appropriate error messages are displayed, and the flow of the program is controlled.
+
+5. File Operations:
+----------------------------------------------------
+- School data is written to a file, with each school's information being saved in the file.
+- When reading from the file, each line is read, and the lines are converted into school objects.

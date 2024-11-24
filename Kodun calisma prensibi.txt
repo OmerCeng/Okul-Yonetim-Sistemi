@@ -1,0 +1,33 @@
+====================================================
+                   KODUN GENEL ÇALIŞMA PRENSİBİ
+====================================================
+
+1. Ana Program Akışı (Main Sınıfı):
+----------------------------------------------------
+- main metodu, programın giriş noktasıdır.
+- Bir Scanner nesnesi oluşturulur ve bir okulYonetim nesnesi yaratılır.
+- Bir döngü başlatılır ve kullanıcıya çeşitli seçenekler sunulur.
+- Kullanıcı seçimine göre ilgili yönetim metodları çağrılır ve işlemler gerçekleştirilir.
+- Kullanıcı programı kapatmak istediğinde döngü sonlandırılır ve program sonlanır.
+
+2. Okul Yönetim Sınıfı (okulYonetim Sınıfı):
+----------------------------------------------------
+- maxokul adında bir sabit, Okul sınıfından oluşan bir dizi (okullar), ve okulSayisi adında bir sayaç bulunur.
+- Okul ekleme, okul bilgisi gösterme, tüm okulları gösterme, aynı şehirdeki okulları gösterme, okul kaydını değiştirme, okul kaydını silme, dosyaya yazma ve dosyadan okuma gibi çeşitli işlevler sağlanır.
+
+3. Okul Sınıfı (Okul Sınıfı):
+----------------------------------------------------
+- Okul nesnelerinin temel özelliklerini (adi, sehir, ulke, telefonNumarasi, ogrenciSayisi, kurulusYili) tutar.
+- Kurucu metot, okul bilgilerini ayarlamak için kullanılır.
+- Okul bilgilerini gösteren bir metot sağlanır.
+
+4. Kullanıcı Girişi ve Çıktısı:
+----------------------------------------------------
+- Kullanıcı, konsol üzerinden seçimlerini yapar ve gerekli bilgileri girer.
+- Program, kullanıcının seçimine ve girdilerine göre çeşitli çıktılar üretir ve işlemler gerçekleştirir.
+- Hata durumlarında uygun hata mesajları verilir ve programın akışı kontrol edilir.
+
+5. Dosya İşlemleri:
+----------------------------------------------------
+- Okul verileri bir dosyaya yazılırken, her okulun bilgileri dosyaya yazılır.
+- Dosyadan okuma yapılırken, her satır okunur ve bu satırlar okul nesnelerine dönüştürülür.
